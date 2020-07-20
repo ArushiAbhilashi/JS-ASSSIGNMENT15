@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H2>COPYING CONTENTS OF AN ARRAY INTO A NEW ARRAYS AND ADDING SOME ITEMS TO IT</H2>
+    <script>
+        let shoppingList=["bread","jam","butter","nutella","cookies"]
+        let shoppingBasket=[...shoppingList]
+        console.log("SHOPPING LIST: "+shoppingList)
+        console.log("INTIAL,SHOPPING BASKET: "+shoppingBasket)
+        shoppingBasket.push("Chocolates")
+        shoppingBasket.push("chips")
+        shoppingBasket.push("fruits")
+        console.log("NEW SHOPPING BASKET: "+shoppingBasket)
+    </script>
+</body>
+</html>
